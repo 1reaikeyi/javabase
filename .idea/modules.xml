@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/数据类型/Type.iml" filepath="$PROJECT_DIR$/数据类型/Type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basee/basee.iml" filepath="$PROJECT_DIR$/basee/basee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java基础.iml" filepath="$PROJECT_DIR$/.idea/java基础.iml" />
+    </modules>
+  </component>
+</project>
