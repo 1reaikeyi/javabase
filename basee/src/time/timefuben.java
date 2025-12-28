@@ -1,4 +1,4 @@
-package xiangmu5time;
+package time;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
