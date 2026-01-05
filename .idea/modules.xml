@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AA/AA.iml" filepath="$PROJECT_DIR$/AA/AA.iml" />
       <module fileurl="file://$PROJECT_DIR$/数据类型/Type.iml" filepath="$PROJECT_DIR$/数据类型/Type.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/basee/basee.iml" filepath="$PROJECT_DIR$/basee/basee.iml" />
