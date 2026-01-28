@@ -1,4 +1,4 @@
-package inter_and_out;
+package inner;
 
 public class out {
     public String name =  "小明";

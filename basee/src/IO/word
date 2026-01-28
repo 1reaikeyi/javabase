@@ -6,5 +6,6 @@ DataInputStream / DataOutputStream（读写 int/long/double 等基本类型）
 ObjectInputStream / ObjectOutputStream（对象序列化 / 反序列化）
 二、字符流（处理文本文件：.txt、.java、.properties）
 FileReader / FileWriter（文件字符节点流）
-BufferedReader / BufferedWriter（缓冲字符流，支持readLine()按行读，必套）
-InputStreamReader / OutputStreamWriter（字节↔字符转换流，解决编码问题，核心）
+BufferedReader / BufferedWriter（缓冲字符流，支持readLine()按行读）
+
+InputStreamReader / OutputStreamWriter（字节↔字符转换流，解决编码问题）

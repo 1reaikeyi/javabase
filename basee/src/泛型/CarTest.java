@@ -7,8 +7,5 @@ public class CarTest {
     public static void main(String[] args) {
         car(new xiaomi());
         car(new wuling());
-        xiaomi x = new xiaomi();
-        x.run();
-        x.fly();
     }
 }

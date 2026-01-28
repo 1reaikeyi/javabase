@@ -1,4 +1,4 @@
-package inter_and_out;
+package inner;
 
 public class into {
     public static void main(String[] args) {
