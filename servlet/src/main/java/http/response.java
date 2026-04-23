@@ -1,4 +1,4 @@
-package dhttp;
+package http;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

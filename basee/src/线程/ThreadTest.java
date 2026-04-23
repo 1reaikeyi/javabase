@@ -3,16 +3,16 @@ package 线程;
 import java.util.concurrent.ExecutionException;
 
 public class ThreadTest {
-//    public static void main(String[] args) throws ExecutionException, InterruptedException {
-//        Thread t = new Thread1();
-//        t.start();
-//        Thread t1 = new Thread1();
-//        t1.start();
-//        for (int i = 0; i < 100; i++) {
-//            System.out.println("main输出：" + i);
-//        }
-//        System.out.println("main结束");
-//    }
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        Thread t = new Thread1();
+        t.start();
+        Thread t1 = new Thread1();
+        t1.start();
+        for (int i = 0; i < 100; i++) {
+            System.out.println("main输出：" + i);
+        }
+        System.out.println("main结束");
+    }
 
 //    public static void main(String[] args) throws ExecutionException, InterruptedException {
 //        Runnable runnable = new Thread2();

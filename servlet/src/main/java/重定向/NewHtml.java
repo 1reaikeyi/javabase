@@ -1,10 +1,10 @@
-package cforward;
+package 重定向;
 
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 
 @WebServlet("/forward")
-public class Chongxie extends HttpServlet {
+public class NewHtml extends HttpServlet {
     @Override
     protected void doGet(jakarta.servlet.http.HttpServletRequest req, jakarta.servlet.http.HttpServletResponse resp) throws jakarta.servlet.ServletException, java.io.IOException {
         doPost(req, resp);

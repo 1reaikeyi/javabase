@@ -1,16 +1,13 @@
-package bservlet;
+package servlet;
 
 
-import jakarta.servlet.ServletConfig;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.ServletRequest;
-import jakarta.servlet.ServletResponse;
+import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = "/servlet", loadOnStartup = 1)
-public class servlet implements jakarta.servlet.Servlet {
+public class servlet implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
         System.out.println("创建servlet对象"+this);

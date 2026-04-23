@@ -1,4 +1,4 @@
-package cforward;
+package 重定向;
 
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

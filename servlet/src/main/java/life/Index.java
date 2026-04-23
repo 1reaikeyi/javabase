@@ -1,4 +1,4 @@
-package alife;
+package life;
 
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebServlet;
@@ -6,11 +6,10 @@ import jakarta.servlet.http.HttpServlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-@WebServlet("/first")
+@WebServlet("/life")
 public class Index  extends HttpServlet {
         private int countservice = 0;
         public Index() {
-            System.out.println(Thread.currentThread().getName());
             System.out.println("1,创建know对象" + this);
         }
         @Override
@@ -37,13 +36,7 @@ public class Index  extends HttpServlet {
                 // 控制台输出原信息
                 System.out.println("3,执行service方法" + "第" + countservice + "个人访问");
                 // 向客户端浏览器输出信息
-                out.println("<html>");
-                out.println("<head><title>访问统计</title></head>");
-                out.println("<body>");
                 out.println("<h1>当前是第 " + countservice + " 次访问</h1>");
-                out.println("<p>线程名：" + Thread.currentThread().getName() + "</p>");
-                out.println("</body></html>");
-
                 // 关闭输出流
                 out.close();
             }

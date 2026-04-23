@@ -1,4 +1,4 @@
-package cforward;
+package 重定向;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
