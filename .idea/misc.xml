@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/javawed/pom.xml" />
         <option value="$PROJECT_DIR$/wed_servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet/pom.xml" />
       </list>
     </option>
   </component>
